@@ -1,5 +1,5 @@
 {% set name = "nvitop" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,16 +7,16 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e0ff6e972aa6ee7e225ae36520abb4dec93de12b7cc4539bd19a6f22f50bcaf8
+  sha256: 6bee68ca03dc447b3372bcdad84e30fc376ae9c8113e32108567ee8d7d2743ea
 
 build:
   # TODO: enable Windows support when package `windows-curses` is available
-  skip: True  # [win]
+  skip: true  # [win]
   entry_points:
     - nvitop = nvitop.cli:main
     - nvisel = nvitop.select:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
