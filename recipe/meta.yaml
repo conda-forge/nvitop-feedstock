@@ -48,7 +48,9 @@ about:
   doc_url: https://nvitop.readthedocs.io
   license: GPL-3.0-only
   license_family: GPL
-  license_file: LICENSE
+  license_file:
+    - LICENSE
+    - COPYING
 
 extra:
   recipe-maintainers:
