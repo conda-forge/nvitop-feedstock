@@ -1,5 +1,5 @@
 {% set name = "nvitop" %}
-{% set version = "0.11.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5d298d878a18a1b8da4116fd97d53b10a0bf0f8635d7a62769134b8a4d5585c9
+  sha256: 85430aa1bab82fa67dee7fe7a3ad0c15a31b830576e2ede36ae88fbc6f8d7ac8
 
 build:
   # TODO: enable Windows support when package `windows-curses` is available
