@@ -1,11 +1,11 @@
-About nvitop
-============
+About nvitop-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nvitop-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/XuehaiPan/nvitop
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nvitop-feedstock/blob/main/LICENSE.txt)
 
 Summary: An interactive NVIDIA-GPU process viewer, the one-stop solution for GPU process management.
 

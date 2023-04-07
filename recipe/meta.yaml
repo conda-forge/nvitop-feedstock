@@ -1,6 +1,6 @@
 {% set name = "nvitop" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "85430aa1bab82fa67dee7fe7a3ad0c15a31b830576e2ede36ae88fbc6f8d7ac8" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "0635317fd6072a7350548c2f7fcc521c8d04d7d73c44253542c8c5617448e272" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
     - nvitop = nvitop.cli:main
     - nvisel = nvitop.select:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
