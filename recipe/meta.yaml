@@ -17,9 +17,12 @@ build:
     - nvitop = nvitop.cli:main
     - nvisel = nvitop.select:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
+  build:
+    - python                              # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}  # [build_platform != target_platform]
   host:
     - pip
     - python
