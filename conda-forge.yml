@@ -8,3 +8,4 @@ github:
   tooling_branch_name: main
 noarch_platforms:
   - linux_64
+  - linux_64
