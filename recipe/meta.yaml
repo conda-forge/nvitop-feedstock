@@ -1,7 +1,7 @@
 {% set name = "nvitop" %}
-{% set version = "1.4.1" %}
-{% set build_number = 1 %}
-{% set sha256 = "8ba42897d667b4aa6cb92cd89a3eb0c6c4a00c598a7c75385726ae052c2a8906" %}
+{% set version = "1.4.2" %}
+{% set build_number = 0 %}
+{% set sha256 = "13c039aa099374fb1a29eb9412849a9d984a162e2ad7d3a1ed2a7f5723914d71" %}
 
 package:
   name: {{ name|lower }}
@@ -29,10 +29,8 @@ requirements:
     - __unix  # [unix]
     - __win   # [win]
 
-    - cachetools >=1.0.1
-    - nvidia-ml-py >=11.450.51,<12.561.0a0
+    - nvidia-ml-py >=11.450.51,<12.571.0a0
     - psutil >=5.6.6
-    - termcolor >=1.0.0
 
     - colorama >=0.4.0        # [win]
     - windows-curses >=2.2.0  # [win]
