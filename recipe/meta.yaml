@@ -1,7 +1,7 @@
 {% set name = "nvitop" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 {% set build_number = 0 %}
-{% set sha256 = "ce8831855f3af0f70f49c009a1f52621a3bddece8752ebb2332dc332bf8a8384" %}
+{% set sha256 = "3803112a1d4a7e01989ae5bf5a5e42f0366bf791d68ad8e3b1859d7ed747140c" %}
 
 package:
   name: {{ name|lower }}
