@@ -1,14 +1,14 @@
 {% set name = "nvitop" %}
-{% set version = "1.7.1" %}
+{% set version = "1.7.2" %}
 {% set build_number = 0 %}
-{% set sha256 = "3803112a1d4a7e01989ae5bf5a5e42f0366bf791d68ad8e3b1859d7ed747140c" %}
+{% set sha256 = "90b9d6dd3f61227acb2a8c9fdeb59f9a7c3cfa08196e0fe3bfd3877633cd4699" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
